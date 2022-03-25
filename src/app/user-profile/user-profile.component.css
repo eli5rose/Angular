@@ -1,0 +1,23 @@
+.container {
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.form {
+  margin: 5%;
+}
+
+

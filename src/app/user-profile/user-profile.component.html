@@ -1,0 +1,15 @@
+<div class="container">
+  <div>
+    <img [src]="user.photo" [alt]="user.name" />
+  </div>
+  <div class="form">
+    <p>Nom : {{user.name}}</p>
+    <p>Prénom : {{user.firstName}}</p>
+    <p [hidden]="showsUp">Age : {{user.age}}</p>
+    <label for="quote">{{user.quote}}</label><br>
+    <!-- <input id="quote"[(ngModel)]="user.quote" placeholder="quote"> -->
+  </div>
+  <div>
+    <button type="button" class="margin" (click)="hiddeAge()">Afficher/Masquer mon âge</button>
+  </div>
+</div>
